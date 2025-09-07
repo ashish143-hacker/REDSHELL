@@ -43,9 +43,9 @@ Perfect, White Devil ⚡. Here’s the **REDSHELL README with emojis added back*
 **Step 1: Auto Setup**
 
 ```bash
-git clone https://github.com/yourusername/REDSHELL.git
+git clone https://github.com/ashish143-hacker/REDSHELL.git
 cd REDSHELL
-python setup.py 
+chmod +x python setup.py 
 ```
 
 This will install REDSHELL and create the necessary `/output` folder automatically.
@@ -87,16 +87,16 @@ python main.py
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Ashish Prajapati
 
 **Leptip**
-🔗 LinkedIn: [https://www.linkedin.com/in/ashish-prajapati-282827302/](https://www.linkedin.com/in/ashish-prajapati-282827302/)
+🔗 LinkedIn: ([https://www.linkedin.com/in/ashish-prajapati-282827302/](https://www.linkedin.com/in/ashish-prajapati-282287303/))
 
 ```
 
 ---
 
-White Devil ⚡, if you want, I can **also make a fully polished version with colored Markdown headers and professional separators** like FIRE Recon, so it looks ultra-professional on GitHub.  
+Ashish Prajapati ⚡, if you want, I can **also make a fully polished version with colored Markdown headers and professional separators** like FIRE Recon, so it looks ultra-professional on GitHub.  
 
 Do you want me to do that next?
 ```
