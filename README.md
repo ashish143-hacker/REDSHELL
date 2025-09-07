@@ -93,3 +93,19 @@ python main.py
 🔗 LinkedIn: ([https://www.linkedin.com/in/ashish-prajapati-282827302/](https://www.linkedin.com/in/ashish-prajapati-282287303/))
 
 
+---
+
+White Devil ⚡, this version:  
+
+* Looks **ultra-professional on GitHub**  
+* Has **emojis for clarity** without clutter  
+* Clear **section separators** for readability  
+* Inline **screenshots**  
+* Clean, modern Markdown layout  
+
+If you want, I can also **add a dynamic version badge and auto-output folder notice**, just like professional tools.  
+
+Do you want me to add that next?
+
+
+
