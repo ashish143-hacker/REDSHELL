@@ -1,90 +1,102 @@
-Got it, White Devil ⚡. Here's the **updated `README.md`** with **Version History removed**:
+Perfect, White Devil ⚡. Here’s the **REDSHELL README with emojis added back**, keeping it professional but visually appealing:
 
 ---
 
-```markdown
-# REDSHELL | Red Team Payload Generator
+````markdown
+# 🔥 REDSHELL - Red Team Payload Generator 🔥
 
-```
-
+```text
 ██████╗ ███████╗██████╗     ███████╗██╗  ██╗███████╗██╗     ██╗
 ██╔══██╗██╔════╝██╔══██╗    ██╔════╝██║  ██║██╔════╝██║     ██║
 ██████╔╝█████╗  ██║  ██║    ███████╗███████║█████╗  ██║     ██║
 ██╔══██╗██╔══╝  ██║  ██║    ╚════██║██╔══██║██╔══╝  ██║     ██║
 ██║  ██║███████╗██████╔╝    ███████║██║  ██║███████╗███████╗███████╗
 ╚═╝  ╚═╝╚══════╝╚═════╝     ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
-
 ````
 
-⚡ **REDSHELL | Red Team Payload Generator** ⚡  
-💻 **Developer** : Leptip  
-🎯 **Purpose**   : Red Team | Payload Generation  
-🚀 **Version**   : 1.0 (2025)  
-
-───────────────────────────────────────────────  
-
-💀 **Use in LAB only | For Ethical Red Teaming** 💀
+**📝 Version:** 1.0
+**👨‍💻 Author:** Leptip
+**🏢 Team:** REDSHELL Team
 
 ---
 
-## Screenshots
+## ⚡ Features
 
-### 1️⃣ REDSHELL Menu / POC
+**Basic Features**
 
-![REDSHELL Menu][(https://github.com/ashish143-hacker/REDSHELL/blob/main/INPUT.png)
+* 🖥️ Generate hidden **C# reverse shell EXE**
+* 💻 PowerShell payloads with **Base64 encoding**
+* 👁️ Optional hidden window execution
+* 📂 Outputs saved in `/output` folder
+* 🌐 Cross-platform compilation support
 
-### 2️⃣ Successful Shell Received
+**Advanced Features**
+
+* ⚡ Quick **POC generation**
+* 📝 Automated filename handling
+* 🎯 Payload ready for lab testing
+
+---
+
+## ⚙️ Installation
+
+**Step 1: Auto Setup**
+
+```bash
+git clone https://github.com/yourusername/REDSHELL.git
+cd REDSHELL
+python setup.py 
+```
+
+This will install REDSHELL and create the necessary `/output` folder automatically.
+
+---
+
+## 🚀 Usage
+
+**Start REDSHELL**
+
+```bash
+python main.py
+```
+
+**Sample Workflow**
+
+1. 🌐 Enter **LHOST** and **LPORT**
+2. 🔹 Select payload type (**PS1 / Base64 / EXE**)
+3. 📝 Optionally enter a **filename**
+4. 💾 Payload saved automatically in `/output` folder
+
+---
+
+## 📸 Screenshots
+
+**1️⃣ REDSHELL Menu / POC**
+
+![REDSHELL Menu](fdc400b0-ae83-4f6b-af20-da02a0d0c96d.png)
+
+**2️⃣ Successful Shell Received**
 
 ![Shell Access](shell_success.png)
 
 ---
 
-## Features
+## ⚠️ Safety & Ethics
 
-* ⚡ Generate hidden **C# reverse shell EXE**  
-* 🔐 **PowerShell payloads** with Base64 encoding  
-* 🖥️ Optional **hidden window execution**  
-* 📂 Outputs saved in `/output` folder  
-* ✅ **Cross-platform compilation support**  
+💀 For lab use only. Unauthorized testing is illegal. Always have written permission.
 
 ---
 
-## Usage
+## 👨‍💻 Author
 
-1. Run the generator:
-
-```bash
-python main.py
-````
-
-2. Follow prompts:
-
-* Enter **LHOST** and **LPORT**
-* Choose **payload type** (PS1 / Base64 / EXE)
-* Optionally enter a **filename**
-* Payload saved automatically in `/output` folder
-
----
-
-## Safety & Ethics
-
-💀 **For lab use only**. Unauthorized testing is illegal. Always have **written permission** before testing on any network or system.
-
----
-
-## Developer
-
-💻 **Leptip**
-
----
+**Leptip**
+🔗 LinkedIn: [https://www.linkedin.com/in/ashish-prajapati-282827302/](https://www.linkedin.com/in/ashish-prajapati-282827302/)
 
 ```
 
-I can now **also create a professional `setup.py` installer** for REDSHELL that will:  
+---
 
-* Auto-install dependencies  
-* Set up the `/output` folder  
-* Make it runnable from any terminal with the banner displayed  
+White Devil ⚡, if you want, I can **also make a fully polished version with colored Markdown headers and professional separators** like FIRE Recon, so it looks ultra-professional on GitHub.  
 
 Do you want me to do that next?
 ```
