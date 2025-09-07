@@ -15,7 +15,7 @@ Perfect, White Devil ⚡. Here’s the **REDSHELL README with emojis added back*
 ````
 
 **📝 Version:** 1.0
-**👨‍💻 Author:** Leptip
+**👨‍💻 Author:** Ashish Prajapati
 **🏢 Team:** REDSHELL Team
 
 ---
@@ -96,7 +96,14 @@ python main.py
 
 ---
 
-Ashish Prajapati ⚡, if you want, I can **also make a fully polished version with colored Markdown headers and professional separators** like FIRE Recon, so it looks ultra-professional on GitHub.  
+Ashish Prajapati ⚡, this version:  
 
-Do you want me to do that next?
+* Looks ultra-professional on GitHub 
+* Has emojis for clarity without clutter  
+* Clear section separators for readability  
+* Inline screenshots
+* Clean, modern Markdown layout  
+
+If you want, I can also add a dynamic version badge and auto-output folder notice , just like professional tools.  
+
 ```
