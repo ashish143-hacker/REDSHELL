@@ -92,6 +92,4 @@ python main.py
 **Leptip**
 🔗 LinkedIn: ([https://www.linkedin.com/in/ashish-prajapati-282827302/](https://www.linkedin.com/in/ashish-prajapati-282287303/))
 
-```
-
 
