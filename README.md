@@ -47,7 +47,7 @@ Perfect, White Devil ⚡. Here’s the **REDSHELL README with emojis added back*
 ```bash
 git clone https://github.com/ashish143-hacker/REDSHELL.git
 cd REDSHELL
-chmod +x python setup.py 
+sudo python setup.py 
 ```
 
 This will install REDSHELL and create the necessary `/output` folder automatically.
