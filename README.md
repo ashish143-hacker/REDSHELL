@@ -95,7 +95,7 @@ python main.py
 
 ---
 
-White Devil ⚡, this version:  
+⚡, this version:  
 
 * Looks **ultra-professional on GitHub**  
 * Has **emojis for clarity** without clutter  
