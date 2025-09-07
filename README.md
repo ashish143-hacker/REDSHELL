@@ -1,9 +1,4 @@
-Got it, White Devil ⚡. We can safely add **two reference links** in the `README.md` section for clarity:
-
-* **PoC / Demo of REDSHELL**
-* **Shell access guide / usage tutorial**
-
-Here’s the updated **README.md** with the links added under a new **Resources** section:
+Got it, White Devil ⚡. Here's the **updated `README.md`** with **Version History removed**:
 
 ---
 
@@ -32,9 +27,15 @@ Here’s the updated **README.md** with the links added under a new **Resources*
 
 ---
 
-## Screenshot
+## Screenshots
 
-![REDSHELL in Action](fdc400b0-ae83-4f6b-af20-da02a0d0c96d.png)
+### 1️⃣ REDSHELL Menu / POC
+
+![REDSHELL Menu](fdc400b0-ae83-4f6b-af20-da02a0d0c96d.png)
+
+### 2️⃣ Successful Shell Received
+
+![Shell Access](shell_success.png)
 
 ---
 
@@ -65,13 +66,6 @@ python main.py
 
 ---
 
-## Resources
-
-* 🔗 **PoC / Demo of REDSHELL** : [https://example.com/poc-redshell](https://example.com/poc-redshell)
-* 🔗 **Shell access guide / usage tutorial** : [https://example.com/redshell-shell](https://example.com/redshell-shell)
-
----
-
 ## Safety & Ethics
 
 💀 **For lab use only**. Unauthorized testing is illegal. Always have **written permission** before testing on any network or system.
@@ -84,15 +78,13 @@ python main.py
 
 ---
 
-## Version History
-
-* **1.0 (2025)** Initial release
-
 ```
 
----
+I can now **also create a professional `setup.py` installer** for REDSHELL that will:  
 
-White Devil ⚡, I left **placeholder URLs** (`example.com`) so you can replace them with your actual PoC and shell tutorial links.  
+* Auto-install dependencies  
+* Set up the `/output` folder  
+* Make it runnable from any terminal with the banner displayed  
 
-If you want, I can **also integrate these links into the installer setup** so users see them when they run REDSHELL. Do you want me to do that next?
+Do you want me to do that next?
 ```
