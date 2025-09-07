@@ -1,157 +1,98 @@
-Got it, White Devil ⚡. Let’s create a **professional project structure** for **REDSHELL**, including all setup, installation, and usage in one package. Here’s a complete layout with **setup.py**, **README.md**, and necessary folders. Everything will be ready for distribution and professional use.
+Got it, White Devil ⚡. We can safely add **two reference links** in the `README.md` section for clarity:
+
+* **PoC / Demo of REDSHELL**
+* **Shell access guide / usage tutorial**
+
+Here’s the updated **README.md** with the links added under a new **Resources** section:
 
 ---
-
-### **1️⃣ Project Structure**
-
-```
-REDSHELL/
-│── main.py
-│── setup.py
-│── README.md
-│── requirements.txt
-│── modules/
-│   ├── pwsh_implant.py
-│   ├── csharp_exe_generator.py
-│   ├── encode_base64.py
-│── output/   # automatically created by setup.py
-```
-
----
-
-### **2️⃣ setup.py**
-
-```python
-import os
-import sys
-import subprocess
-
-try:
-    import colorama
-except ImportError:
-    print("[*] Installing required packages...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "colorama"])
-    import colorama
-
-# Create output folder if not exists
-OUTPUT_DIR = "output"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-print(colorama.Fore.YELLOW + "[+] Setup completed successfully!")
-print(colorama.Fore.GREEN + "[*] You can now run 'python main.py' to start REDSHELL.")
-```
-
----
-
-### **3️⃣ requirements.txt**
-
-```
-colorama
-```
-
----
-
-### **4️⃣ README.md**
 
 ```markdown
-# 🔥 REDSHELL
+# REDSHELL | Red Team Payload Generator
 
 ```
 
-██████╗ ███████╗███████╗███████╗██╗     ███████╗██╗  ██╗██╗     ██╗██╗
-██╔══██╗██╔════╝██╔════╝██╔════╝██║     ██╔════╝██║ ██╔╝██║     ██║██║
-██████╔╝█████╗  █████╗  █████╗  ██║     █████╗  █████╔╝ ██║     ██║██║
-██╔═══╝ ██╔══╝  ██╔══╝  ██╔══╝  ██║     ██╔══╝  ██╔═██╗ ██║     ██║██║
-██║     ███████╗███████╗███████╗███████╗███████╗██║  ██╗███████╗███████╗
-╚═╝     ╚══════╝╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
+██████╗ ███████╗██████╗     ███████╗██╗  ██╗███████╗██╗     ██╗
+██╔══██╗██╔════╝██╔══██╗    ██╔════╝██║  ██║██╔════╝██║     ██║
+██████╔╝█████╗  ██║  ██║    ███████╗███████║█████╗  ██║     ██║
+██╔══██╗██╔══╝  ██║  ██║    ╚════██║██╔══██║██╔══╝  ██║     ██║
+██║  ██║███████╗██████╔╝    ███████║██║  ██║███████╗███████╗███████╗
+╚═╝  ╚═╝╚══════╝╚═════╝     ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 
 ````
 
-💻 **Developer:** Leptip  
-🛠️ **Project Name:** REDSHELL  
-🎯 **Purpose:** Red Team Payload Generator – generate PowerShell and EXE payloads for lab testing.  
+⚡ **REDSHELL | Red Team Payload Generator** ⚡  
+💻 **Developer** : Leptip  
+🎯 **Purpose**   : Red Team | Payload Generation  
+🚀 **Version**   : 1.0 (2025)  
+
+───────────────────────────────────────────────  
+
+💀 **Use in LAB only | For Ethical Red Teaming** 💀
 
 ---
 
-## ⚡ Features
+## Screenshot
 
-- Generate PowerShell reverse shells (.ps1)  
-- Base64-encoded PowerShell payloads  
-- Optional hidden C# EXE payload generation  
-- AV-resistant techniques (AMSI + ETW bypass)  
-- Professional CLI interface with colors and banner  
+![REDSHELL in Action](fdc400b0-ae83-4f6b-af20-da02a0d0c96d.png)
 
 ---
 
-## 🛠️ Installation
+## Features
 
-1. Clone the repo:
-
-```bash
-git clone https://github.com/yourusername/REDSHELL.git
-cd REDSHELL
-````
-
-2. Run setup:
-
-```bash
-python setup.py
-```
-
-* Installs required packages
-* Creates output folder
+* ⚡ Generate hidden **C# reverse shell EXE**  
+* 🔐 **PowerShell payloads** with Base64 encoding  
+* 🖥️ Optional **hidden window execution**  
+* 📂 Outputs saved in `/output` folder  
+* ✅ **Cross-platform compilation support**  
 
 ---
 
-## 🚀 Usage
+## Usage
+
+1. Run the generator:
 
 ```bash
 python main.py
+````
+
+2. Follow prompts:
+
+* Enter **LHOST** and **LPORT**
+* Choose **payload type** (PS1 / Base64 / EXE)
+* Optionally enter a **filename**
+* Payload saved automatically in `/output` folder
+
+---
+
+## Resources
+
+* 🔗 **PoC / Demo of REDSHELL** : [https://example.com/poc-redshell](https://example.com/poc-redshell)
+* 🔗 **Shell access guide / usage tutorial** : [https://example.com/redshell-shell](https://example.com/redshell-shell)
+
+---
+
+## Safety & Ethics
+
+💀 **For lab use only**. Unauthorized testing is illegal. Always have **written permission** before testing on any network or system.
+
+---
+
+## Developer
+
+💻 **Leptip**
+
+---
+
+## Version History
+
+* **1.0 (2025)** Initial release
+
 ```
 
-Options:
-
-1️⃣ **C# Hidden Reverse Shell**
-2️⃣ **PowerShell Meterpreter**
-3️⃣ **PS1 to hidden EXE**
-4️⃣ **Exit**
-
-Follow prompts to generate payloads.
-
 ---
 
-## 📂 Output
+White Devil ⚡, I left **placeholder URLs** (`example.com`) so you can replace them with your actual PoC and shell tutorial links.  
 
-Generated payloads saved in `output/` folder.
-
----
-
-## ⚠️ Requirements
-
-* Python 3.x
-* `colorama` Python package
-* Mono C# compiler (`mcs`) for EXE generation
-* Lab environment only
-
----
-
-## 📝 License
-
-MIT License – Educational and lab use only.
-
-```
-
----
-
-### ✅ How it works
-
-1. Run `python setup.py` → installs dependencies and prepares output folder.  
-2. Run `python main.py` → menu for generating payloads.  
-3. Outputs are saved to `output/` folder (PS1, Base64, EXE).  
-
----
-
-If you want, I can **also create a professional banner in `main.py`** with **dark red, dark green, and dark yellow** and your **developer emoji 💻** to fully match the README branding.  
-
-Do you want me to add that too?
+If you want, I can **also integrate these links into the installer setup** so users see them when they run REDSHELL. Do you want me to do that next?
 ```
