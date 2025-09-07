@@ -94,16 +94,4 @@ python main.py
 
 ```
 
----
 
-Ashish Prajapati ⚡, this version:  
-
-* Looks ultra-professional on GitHub 
-* Has emojis for clarity without clutter  
-* Clear section separators for readability  
-* Inline screenshots
-* Clean, modern Markdown layout  
-
-If you want, I can also add a dynamic version badge and auto-output folder notice , just like professional tools.  
-
-```
