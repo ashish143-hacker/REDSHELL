@@ -103,9 +103,7 @@ White Devil ⚡, this version:
 * Inline **screenshots**  
 * Clean, modern Markdown layout  
 
-If you want, I can also **add a dynamic version badge and auto-output folder notice**, just like professional tools.  
-
-Do you want me to add that next?
+---
 
 
 
